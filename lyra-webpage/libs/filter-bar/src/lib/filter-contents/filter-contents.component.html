@@ -1,0 +1,40 @@
+<div class="filter-fixed">
+  <div class="tools-header">
+    <div class="form-inline" role="form">
+      <div class="float-left d-flex">
+        <ul class="crumbs home pl-0" style="cursor: pointer;">
+          <li>
+            <a class="home-button">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+        <div
+          class="form-group ng-isolate-scope"
+          data-pl-nav-title=""
+          data-location="Manage Clients"
+          title="Client List"
+          style="margin-top: -4px"
+        >
+          <ul class="crumbs pl-0">
+            <li>
+              <a
+                ><span style="padding: 0 8px 0 8px" class="ng-binding">{{
+                  heading
+                }}</span></a
+              >
+            </li>
+            <li>
+              <a
+                style="z-index: 1; background-image: none"
+                class="ng-binding"
+                >{{ list }}</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="filter-content"><ng-content></ng-content></div>
+    </div>
+  </div>
+</div>

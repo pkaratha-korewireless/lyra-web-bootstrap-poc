@@ -1,0 +1,84 @@
+.filter-fixed {
+    position: fixed !important;
+    height: 49px;
+    /* width: 4000px; */
+    /* padding: 13px 20px 33px 175px; */
+    left: 0;
+    top: 53px;
+    z-index: 2;
+    right: 0px;
+    background-color: #fefefe;
+    font-size: 16px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dbd9d9;
+    border-top: 1px solid #dbd9d9;
+  }
+  .fixed {
+    position: fixed;
+  }
+  .home {
+    top: 54px;
+    left: 0;
+    height: 50px;
+    z-index: 999;
+  }
+  .crumbs li a {
+    background-image: url(https://devtest.positionlogic.com/Branding/DevTest_9775772a-e45d-472a-9bd0-75402f572431/bg-crumbs.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    position: relative;
+    height: 48px;
+  }
+  .crumbs li a,
+  .crumbs li a:link,
+  .crumbs li a:visited {
+    color: #666;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: -12px;
+    padding: 13px 19px 11px 25px;
+    /* width: 145px; */
+    position: relative;
+    text-decoration: none;
+  }
+  .home-button {
+    width: 80px;
+  }
+  a {
+      background: transparent;
+  }
+  .glyphicon:empty {
+      width: 1em;
+  }
+  .home-icon {
+      font-size: 20px;
+      /* margin-top: -2px; */
+      /* margin-left: 43px; */
+      color: #797979;
+      position: absolute;
+      top: 50%;
+      left: 30px;
+      margin-top: -10px;
+  }
+  
+  
+  .home {
+      top: 54px;
+      left: 0;
+      height: 50px;
+      z-index: 999;
+  }
+  .crumbs li {
+      display: inline;
+  }
+  li {
+      list-style-type: none;
+  }
+  .home-button .fa-bars {
+      font-size: 20px;
+  }
+  .filter-content {
+      height: 49px;
+  }

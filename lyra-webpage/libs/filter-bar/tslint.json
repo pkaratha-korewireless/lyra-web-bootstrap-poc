@@ -1,0 +1,7 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [true, "attribute", "lyra-webpage", "camelCase"],
+    "component-selector": [true, "element", "lyra-webpage", "kebab-case"]
+  }
+}

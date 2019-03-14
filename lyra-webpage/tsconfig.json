@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5",
+    "module": "es2015",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@lyra-webpage/core": ["libs/core/src/index.ts"],
+      "@lyra-webpage/filter-bar": ["libs/filter-bar/src/index.ts"],
+      "@lyra-webpage/table-grid": ["libs/table-grid/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

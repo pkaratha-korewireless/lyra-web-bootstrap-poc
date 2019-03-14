@@ -1,0 +1,29 @@
+<nav aria-label="Page navigation example">
+  <ul class="pagination pg-blue">
+    <div class="form-group">
+      <label>Show</label>
+      <select class="form-control">
+        <option>10</option>
+        <option>20</option>
+        <option>50</option>
+        <option>100</option>
+      </select>
+    </div>
+    <li class="page-item">
+      <a class="page-link" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li *ngFor="let in of pages; let i = index" class="page-item">
+      <a class="page-link">{{ i + 1 }}</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+    <li class="ml-auto mr-2"><label>Count: 440</label></li>
+  </ul>
+</nav>
